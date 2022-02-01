@@ -115,7 +115,7 @@ const list = [
                 <Input label="Time" type="time" fullWidth/>
                 <Spacer y={1}/>
                 
-                 <Button auto color="warning" css={{ px: '$13' }} rounded 
+                 <Button auto color="warning" css={{ px: '$13' }} rounded fullWidth
                  iconRight={<Iconly name="Send" set="bulk" primaryColor="Darkgreen"/>}>
                   Submit!!!　
                   </Button>
