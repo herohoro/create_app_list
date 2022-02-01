@@ -135,61 +135,6 @@ const list = [
             </Grid>
           ))}
         </Grid.Container>
-       
-
-       
-       
-        <Card clickable bordered css={{ mw: "400px" }} bordered shadow={false} hoverable css={{ mw: "400px" }}>
-          <p>A clickable card + hoverable card.</p>
-        </Card>
-        <Container >
-        <Spacer />
-        <Image src="/../public/vercel.svg" alt="Vercel Logo" width={200} height={200} />
-        <Spacer />
-        <Row justify="center" align="center">
-      
-        <Text h3 color="secondary">
-          Welcome to&nbsp;
-          <Link
-            color="warning"
-            href="https://nextjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Next.js
-          </Link>
-          &nbsp;&&nbsp;
-          <Link
-            icon
-            underline
-            href="https://nextui.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            NextUI
-          </Link>
-        </Text>
-        </Row>
-        <Spacer />
-        <Row justify="center" align="center">
-        
-        <Input clearable labelPlaceholder="Type something" />
-        <Spacer />
-        <Button>
-          <a
-            className={styles.button}
-            href="https://github.com/nextui-org/nextui"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Show on Github
-          </a>
-        </Button>
-        </Row>
-        <Spacer y={3}/>
-        
-        </Container>
-        
     </div>
     </NextUIProvider>
   )
