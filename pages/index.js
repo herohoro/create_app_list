@@ -87,7 +87,7 @@ const list = [
         </Card>
         <Grid.Container gap={2} justify="center">
           {list.map((item, index) => (
-            <Grid xs={12} sm={6} key={index}>
+            <Grid xs={6} key={index}>
               <Card width="100%">
               <Card.Header justify="flex-start">
                   <Row justify="space-between">
@@ -110,9 +110,9 @@ const list = [
                 <Grid width="100%">
                 <Input label="Name" type="text" fullWidth/>
                 <Spacer x={0.3}/>
-                <Input fullWidth label="Date" type="date"/>
+                <Input label="Date" type="date" fullWidth/>
                 <Spacer x={0.3}/>
-                <Input fullWidth label="Time" type="time"/>
+                <Input label="Time" type="time" fullWidth/>
                 <Spacer y={1}/>
                 
                  <Button auto color="warning" css={{ px: '$13' }} rounded 
