@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import * as React from 'react';
+
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import {
@@ -47,6 +49,7 @@ const list = [
 
 
   return (
+    <NextUIProvider>
     <div className={styles.container}>
       <Head>
         <title>Study Space</title>
@@ -187,5 +190,6 @@ const list = [
         </Container>
         
     </div>
+    </NextUIProvider>
   )
 }
