@@ -27,15 +27,7 @@ export default function Home() {
     'gradient'
     
   ];
-  const MockItem = ({text}) => {
-    return (
-        <div height={100}>
-            <Text h6 size={15} color="white" style={{ margin: 0 }}>
-                {text}
-            </Text>
-        </div>
-    );
-};
+  
 const list = [
   {
     title: 'Start',
@@ -95,7 +87,7 @@ const list = [
         </Card>
         <Grid.Container gap={2} justify="center">
           {list.map((item, index) => (
-            <Grid xs={6} sm={4} key={index}>
+            <Grid xs={12} sm={6} key={index}>
               <Card width="100%">
               <Card.Header justify="flex-start">
                   <Row justify="space-between">
