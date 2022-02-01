@@ -12,7 +12,6 @@ import {
   useTheme, Text
 } from '@nextui-org/react';
 import { Iconly } from 'react-iconly'
-
 export default function Home() {
   
   const { theme } = useTheme();
